@@ -37,8 +37,22 @@
  	{
          
 
-         cordova.getAppVersion.getAppName(function (version) {
+         cordova.getAppVersion.getPackageName(function (version) {
     alert(version);
+
+
+});
+
+     
+     }
+      	function check2()
+ 	{
+         
+
+         cordova.getAppVersion.getVersionNumber(function (version) {
+    alert(version);
+
+    
 });
 
      }
@@ -77,6 +91,8 @@
 				<a href="index-2.html" class="logo"><h1>Xtra</h1></
 			</div>
 			<input type="submit" id ="btn" onclick="check()"></input>
+			<br>
+			<input type="submit2" id ="btn2" onclick="check2()"></input>
 			<div class="panel-control-right">
 
 				<a href="contact.html"><i class="fa fa-envelope-o"></i></a>
